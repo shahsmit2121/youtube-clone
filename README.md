@@ -2,7 +2,7 @@
 
 This is a **static YouTube homepage clone** I built while learning the fundamentals of HTML and CSS. No JavaScript, no frameworks—just raw structure and styling. The idea was to mimic YouTube’s layout closely enough to understand how real-world UI comes together.
 
-![screenshot-placeholder](path-to-your-screenshot-if-any)
+![Youtube Clone Screenshot](screenshot.png)
 
 ## 🌱 What I Learned
 
