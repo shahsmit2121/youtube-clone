@@ -14,17 +14,17 @@ This is a **static YouTube homepage clone** I built while learning the fundament
 
 ## 📁 Folder Structure
 
-project/
-│
-├── youtube.html
-├── Styles/
-│ ├── general.css
-│ ├── header.css
-│ ├── sidebar.css
-│ └── video.css
-├── icons/
-├── thumbnails/
-└── channel-pictures/
+project/<br>
+│<br>
+├── youtube.html<br>
+├── Styles/<br>
+│ ├── general.css<br>
+│ ├── header.css<br>
+│ ├── sidebar.css<br>
+│ └── video.css<br>
+├── icons/<br>
+├── thumbnails/<br>
+└── channel-pictures/<br>
 
 > Note: Images and icons used here are for educational purposes only.
 
