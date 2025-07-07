@@ -1,0 +1,151 @@
+.thumbnail{
+    width: 100%;
+}
+
+.video-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.video-author,
+.video-stats{
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.video-author{
+    margin-bottom: 4px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-picture{
+    width: 36px;
+    border-radius: 50%;
+}
+
+.channel-picture:hover .channel-tooltip{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.channel-picture{
+    position: relative;
+    cursor: pointer;
+}
+
+.channel-tooltip{
+    position: absolute;
+    display: flex;
+    bottom: -30px;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px grey;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.channel-tooltip-marki{
+    position: absolute;
+    display: flex;
+    bottom: -50px;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px grey;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.channel-picture:hover .channel-tooltip-marki{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.tooltip-picture{
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.channel-tooltip-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tooltip-channel-name{
+    font-family: roboto, arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.tooltip-subs{
+    font-family: roboto, arial;
+    font-size: 15px;
+    color: grey;
+    margin-top: 3.5px;
+}
+
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 800px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+    font-size: 12px;
+    font-weight: 500px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.video-title-link{
+    text-decoration: none;
+    color: black;
+}

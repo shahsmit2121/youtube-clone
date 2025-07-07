@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 14</title>
+        <style>
+            .modal{
+                display: flex;
+                flex-direction: column;
+                width: 400px;
+                height: 125px;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 10px;
+                justify-content: space-between;
+                z-index: 100;
+                background-color: white;
+            }
+
+            .title{
+                font-family: arial;
+                font-size: 25px;
+                font-weight: bold;
+                margin: 0;
+                padding-top: 10px;
+                padding-left: 15px;
+                padding-bottom: 0;
+                z-index: 100;
+            }
+
+            .name{
+                font-family: arial;
+                margin: 0;
+                padding-left: 15px;
+                z-index: 100;
+            }
+
+            .button-div{
+                padding-left: 15px;
+                padding-bottom: 15px;
+                z-index: 100;
+            }
+        </style>
+    </head>
+    <body style="height: 3000px;">
+        <!-- <div style="background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;">bottom-right</div> -->
+
+        <div style="background-color: green;
+        color: white;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 0;">right sidebar</div>
+
+        <div style="background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;">
+            <div class="modal">
+                <div class="title">
+                    Modal Title
+                </div>
+                <div class="name">
+                    This is a modal
+                </div>
+                <div class="button-div">
+                    <button>
+                        Close
+                    </button>
+                </div>
+            </div>        
+        </div>
+
+        
+    </body>
+</html>
