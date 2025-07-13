@@ -29,9 +29,8 @@ project/<br>
 > Note: Images and icons used here are for educational purposes only.
 
 ## 🎥 Live Demo / Walkthrough
-
-I’ll be adding a quick walkthrough video soon showing how everything works.  
-**[Watch it here once it's ready →](#)**
+ 
+**[Demo](Youtube_Clone.gif)**
 
 ## ⚙️ How to Run It
 
